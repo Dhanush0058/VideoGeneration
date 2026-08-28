@@ -1,0 +1,32 @@
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache and metadata
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local Video Generation Storage (Temp clips, downloaded audios, finished videos)
+backend/storage/
+
+# Frontend dependencies & production bundles
+frontend/node_modules/
+frontend/dist/
+
+# Secret Environment Files (Keeps API Keys off GitHub)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+
+# System specific files
+.DS_Store
+Thumbs.db
+desktop.ini
